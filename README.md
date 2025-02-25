@@ -10,7 +10,7 @@ This repository serves as a portfolio of my recent projects, showcasing my devel
 ## 📌 Key Projects
 
 ### [Beepboop](https://speak.beepboop.us)
-**Edtech startup empowering language teachers through technology.**
+**Google and Techstars-funded startup empowering language teachers through technology.**
 - **Tech Stack:** React (Frontend), Google Firestore (DB), Cloud Functions (Backend)
 - **Notable Features:**
   - **[Beepboop Stories](https://friends.beepboop.us/stories)** – AI-driven Spanish learning narratives.
