@@ -3,10 +3,6 @@
 ## 👋 Welcome
 This repository serves as a portfolio of my recent projects, showcasing my development process, technical decisions, and goals. 
 
-[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=QuokkaPride&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
-
----
-
 ## 📌 Key Projects
 
 ### [Beepboop](https://speak.beepboop.us)
