@@ -34,5 +34,3 @@ This repository serves as a portfolio of my recent projects, showcasing my devel
   - Scraped municipal finance datasets using Python.
   - Processed text data via NLP (spaCy).
   - Stored structured data in Firestore for easy retrieval.
-
----
