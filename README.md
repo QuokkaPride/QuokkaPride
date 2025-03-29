@@ -19,7 +19,7 @@ This repository serves as a portfolio of my recent projects, showcasing my devel
 **Providing data to help municipalities and healthcare systems save millions on debt financings.**
 - **Primary Goal:** Drive first user signup → Monetization through data insights.
 - **Tech Stack:** 
-  - **Data Scraping:** Python (Selenium, spaCy for NLP processing)
+  - **Data Scraping:** Python (Selenium, spaCy for NLP processing, RAG)
   - **Backend & Database:** Firebase Firestore (NoSQL), Cloud Functions
   - **Frontend:** React (TypeScript)
 - **Live Features:**
