@@ -42,11 +42,7 @@ Co-Founder → CEO → Tech Lead. When our CTO left, I took over technical devel
 ## 📊 Activity & Contributions
 
 ### **1,580 contributions in the last year** 
-*Most of my work is in private repositories for Muni Data Network and Beepboop*
-
-![Contribution Graph](https://github.com/quokkapride/quokkapride/blob/main/github-contribution-grid-snake.svg)
-
-> **Note:** GitHub's public stats don't reflect private repo activity. My actual contribution graph shows consistent daily commits across multiple production systems.
+![GitHub Contribution Graph](https://ghchart.rshah.org/quokkapride)
 
 ---
 
