@@ -48,7 +48,7 @@ Co-Founder → CEO → Tech Lead. When our CTO left, I took over technical devel
 
 ## 💻 Technical Stack
 
-**AI/ML:** RAG (Retrieval Augmented Generation) • Agent Orchestration • Prompt Engineering • Vector Embeddings • OpenAI API • Evaluation Pipelines • MLOps • TensorFlow • spaCy • Genkit • chunkr.ai • PyMuPDF/Fitz
+**AI/ML:** RAG (Retrieval Augmented Generation) • Agent Orchestration • Prompt Engineering • Vector Embeddings • LangChain • LangSmith • OpenAI API • Evaluation Pipelines • MLOps • TensorFlow • spaCy • Genkit • chunkr.ai • PyMuPDF/Fitz
 
 **Languages & Frameworks:** Python • TypeScript • JavaScript • SQL • VBA • Google Apps Script • React • Next.js • Node.js • Tailwind CSS • WebRTC
 
