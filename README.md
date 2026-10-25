@@ -19,9 +19,9 @@ I ship automation with its review or exception queue, so operations catches what
 
 ## Selected projects
 
-**[Municipal Data Network](https://munidata.network)** (ongoing). RAG over municipal bond documents, so municipal finance professionals can pull financial information out of long PDFs. Vector similarity search plus tagged document retrieval (Python, PyMuPDF, LangChain, Next.js).
+**[Municipal Data Network](https://munidata.ai)** (ongoing). RAG over municipal bond documents, so municipal finance professionals can pull financial information out of long PDFs. Vector similarity search plus tagged document retrieval (Python, PyMuPDF, LangChain, Next.js).
 
-**[Beepboop](https://speak.beepboop.us)**. Co-founded, then ran as CTO and CEO with a team of 25. Software to help language teachers teach better, plus on-demand, audio-only language classes with over 100,000 active users at peak.
+**[Beepboop](https://substack.com/@beepboopus)**. Co-founded, then ran as CTO and CEO with a team of 25. Software to help language teachers teach better, plus on-demand, audio-only language classes with over 100,000 active users at peak.
 
 **[CleanMy](https://cleanmy.life)**. Built and launched an app where kids earn screen time by cleaning. AI verifies the before-and-after photos; parents pick which apps stay restricted.
 
