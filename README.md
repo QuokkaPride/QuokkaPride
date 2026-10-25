@@ -1,65 +1,54 @@
 # Devon Saliga
 
-**Product engineer building AI systems for healthcare, finance, and everyday life.**
+**Product engineer building AI systems for healthcare and finance.**
 
-I take products from defining KPIs and planning the work through implementation, launch, and handoff to operations. My background spans investment banking, startup leadership, and software engineering, so I connect technical decisions to the people and processes they need to serve.
+I set the KPIs, write the plan, get it approved, build the product, and stay with operations until they run it without me. Earlier I co-founded an edtech company, funded by Google for Startups, and ran it as CTO and CEO. I learned finance in investment banking at Goldman Sachs and as Director of Finance at Maven Clinic.
 
-My specialties are healthcare engineering and automation, agentic retrieval and RAG systems, token-efficient agentic development, and financial systems. That includes revenue cycle management (RCM), medical coding automation, payment reconciliation, and financial reporting.
+Now I work on healthcare revenue cycle automation, RAG over financial documents, and cost-efficient agentic development.
 
-## What I'm building at Big Leap Health
+## Big Leap Health
 
-I build products across medical coding, revenue cycle management, and financial operations, working with operations teams from the initial problem through rollout.
+I ship automation with its review or exception queue, so operations catches what it misses.
 
-- **AI medical coding:** Automated code determination, added AI review, and built a streamlined workflow for humans to review the results.
-- **Revenue cycle management and payment reconciliation:** Built tooling to compare payer payments with expected reimbursement, handle partial payments, and resolve exceptions through fee schedule updates or disputes.
-- **Financial reporting:** Automated the preparation of statements that had previously been assembled manually.
-- **Healthcare exchange migration and systems integration:** Managed the integration of our payment systems with a new healthcare exchange vendor, enabling automated ingestion of claims information. Coordinated the supporting operational workflows, automated claims submission, and built exception tracking.
-- **Efficient AI engineering:** Reduced API costs by 50% through testing and evaluation suites that match tasks to models. Built harnesses for engineering teams and coding agents to route questions, testing, and review by task, cost, and whether the work involves protected health information (PHI), keeping sensitive work within approved healthcare environments.
-- **Engineering practices:** Maintain a shared handbook to help new hires get productive and keep documentation and agentic coding practices consistent.
+- **Medical coding:** Automated code determination, with an AI review pass and a human review workflow.
+- **Revenue cycle management (RCM) and payment reconciliation:** Built tooling that compares payer payments to expected reimbursement, handles partial payments, and resolves exceptions through fee schedule updates or disputes.
+- **Financial reporting:** Automated financial statements the team used to assemble by hand.
+- **Healthcare exchange migration and systems integration:** Managed the integration of our payment systems with a new healthcare exchange vendor, so claims data flows in automatically. Coordinated the supporting workflows, automated claims submission, and built exception tracking.
+- **AI cost and PHI routing:** Cut API costs 50% with evaluation suites that match each task to a model. Built harnesses that route work for engineers and coding agents by task, model cost, and whether it touches protected health information (PHI), keeping PHI inside approved healthcare environments.
+- **Engineering handbook:** Maintain it: onboarding, documentation standards, and how we work with coding agents.
 
 ## Selected projects
 
-### [Municipal Data Network](https://munidata.network)
+**[Municipal Data Network](https://munidata.network)** (ongoing). RAG over municipal bond documents, so municipal finance professionals can pull financial information out of long PDFs. Vector similarity search plus tagged document retrieval (Python, PyMuPDF, LangChain, Next.js).
 
-Building retrieval-augmented generation (RAG) systems that help municipal finance professionals search municipal bond documents and retrieve financial information from complex PDFs. The retrieval pipeline combines vector similarity search with tagged document retrieval, using Python, PyMuPDF, and LangChain, with a Next.js frontend.
+**[Beepboop](https://speak.beepboop.us)**. Co-founded, then ran as CTO and CEO with a team of 25. Software to help language teachers teach better, plus on-demand, audio-only language classes with over 100,000 active users at peak.
 
-### [Beepboop](https://speak.beepboop.us)
+**[CleanMy](https://cleanmy.life)**. Built and launched an app where kids earn screen time by cleaning. AI verifies the before-and-after photos; parents pick which apps stay restricted.
 
-Co-founded a language-learning company and served as CTO and CEO, leading a team of 25. Built software to help language teachers teach better and deliver on-demand, audio-only language classes. At its peak, the platform had over 100,000 active users.
-
-### [CleanMy](https://cleanmy.life)
-
-Built and launched an app where children earn screen time by cleaning. Parents choose which apps to restrict; AI checks before-and-after photos to verify the work and unlock earned time.
-
-### [PopPR](https://github.com/QuokkaPride/PopPR)
-
-Created a developer tool that quizzes you on the core engineering concepts in your own pull requests. It helps developers working with coding agents understand and explain the code they ship.
-
-Available as an [npm package](https://www.npmjs.com/package/@quokkapride/poppr), a CLI, a [browser app](https://quokkapride.github.io/PopPR/), and a GitHub Action.
+**[PopPR](https://github.com/QuokkaPride/PopPR)**. Quizzes you on the engineering concepts in your own pull requests, so you can explain the code you ship with coding agents. [npm package](https://www.npmjs.com/package/@quokkapride/poppr), CLI, [browser app](https://quokkapride.github.io/PopPR/), and GitHub Action.
 
 ## How I work
 
-I love making the engineering process itself better. I can happily lose hours refining a CI/CD pipeline, improving a Claude Code review skill, or building a testing suite that finds the least expensive model that meets the task's quality requirements. Helping a team ship faster and making systems more efficient at scale are some of my favorite engineering problems.
-
-- Define the business outcome and KPIs before choosing the implementation.
-- Own the product through delivery and operational handoff.
-- Evaluate models against the task, cost, and data-handling requirements.
-- Build review tools and exception workflows alongside automation.
+I love improving the engineering process and can lose hours tuning a CI/CD pipeline so the team merges sooner, refining a Claude Code review skill to spend fewer tokens, or building a test suite that finds the cheapest model that clears the quality bar. The payoff: a team that ships faster and a system that costs less to run.
 
 ## My current dev setup
 
 *["Always, always, always evolving."]*
 
-- **[Claude Code](https://claude.com/product/claude-code):** Two Claude Max accounts.
-- **Claude Code for healthcare:** One separate BAA-covered account for work involving PHI.
-- **[ChatGPT Pro and Codex](https://learn.chatgpt.com/docs/pricing):** One account.
-- **[Cursor](https://cursor.com):** For AI-assisted development.
-- **[Devin](https://devin.ai):** For agentic engineering workflows.
+**AI, most used first**
 
-For development on my computer, I use [Herdr](https://herdr.dev) inside [Ghostty](https://ghostty.org). From my phone, I use Claude Code and the ChatGPT apps to access my computer and collaborate with coding agents.
+- [Claude Code](https://claude.com/product/claude-code) on two Claude Max accounts: daily coding, plus the review skills and harnesses I build.
+- A third, BAA-covered Claude Code account for PHI work.
+- [Cursor](https://cursor.com) as the IDE.
+- [ChatGPT Pro and Codex](https://learn.chatgpt.com/docs/pricing), mainly for the Codex CLI.
+- [Devin](https://devin.ai) for autonomous runs that improve the code.
 
-**Core tools:** Python, TypeScript, SQL, React, Next.js, PostgreSQL, AWS, GCP, Terraform, and GitHub Actions.
+**Desk**
 
-Previously at **Goldman Sachs** in investment banking and **Maven Clinic** as Director of Finance.
+- [Herdr](https://herdr.dev) inside [Ghostty](https://ghostty.org) on my Mac.
+- A PC for finance, because Excel.
+- From my phone, the Claude Code and ChatGPT apps reach my computer, so I can work with the agents away from my desk.
+
+**Stack:** Python, TypeScript, SQL, React, Next.js, PostgreSQL, AWS, GCP, Terraform, GitHub Actions.
 
 [LinkedIn](https://www.linkedin.com/in/devonsaliga/) · [Email](mailto:devonsaliga@gmail.com)
